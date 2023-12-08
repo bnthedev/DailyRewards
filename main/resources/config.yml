@@ -1,0 +1,19 @@
+# Configurace pro plugin DailyRewardPlugin
+
+# Nastavení cooldownu pro získání denní odměny (v sekundách)
+cooldown:
+  duration: 86400
+
+# Nastavení odměny v GUI
+reward:
+  amount: 50
+
+# Zprávy pro hráče
+messages:
+  onlyPlayers: "&cTento příkaz mohou používat pouze hráči."
+  alreadyClaimed: "&6&lDaily Rewards &8>>> &7You have already claimed your daily reward!"
+  rewardClaimed: "&6&lDaily Rewards &8>>> &7You have succesfully claimed your daily reward - &6%reward_amount% &7coins."
+
+# Nastavení GUI
+gui:
+  title: "Daily Reward"

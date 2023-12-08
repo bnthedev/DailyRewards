@@ -1,0 +1,7 @@
+name: DailyRewards
+version: '${project.version}'
+main: dailyrewards.dailyrewards.Main
+api-version: 1.20
+commands:
+  dailyreward:
+    permission: dailyreward.dailyreward
